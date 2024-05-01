@@ -14,7 +14,7 @@ const leroy = Record({
   },
 });
 
-Test("test", (atf) => {
+Test("Feed Leroy Test", (atf) => {
   atf.openNewForm({
     table: x_snc_llamatracker_feed_log,
     formUI: "Standard UI",
