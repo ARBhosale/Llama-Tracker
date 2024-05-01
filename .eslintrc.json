@@ -1,0 +1,20 @@
+{
+    "rules": { 
+		"@typescript-eslint/naming-convention": "off",
+		"@typescript-eslint/no-floating-promises": "error",
+		"@typescript-eslint/no-namespace": "off",
+		"@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+		"@typescript-eslint/no-var-requires": "off",
+		"@typescript-eslint/no-explicit-any": "warn",
+		"curly": "error",
+		"semi": "never",
+		"quotes": ["error", "single"],
+		"indent": ["error", 4],
+		"camelcase": "never",
+		"no-console": "error",
+		"prefer-const": "error",
+		"no-var": "error",
+		"@servicenow/now-sdk-app-plugin/use-join-query": "error",
+		"@servicenow/now-sdk-app-plugin/no-promise":"error"
+	}
+}

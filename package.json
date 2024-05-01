@@ -1,0 +1,33 @@
+{
+    "name": "x_snc_llamatracker",
+    "version": "1.0.0",
+    "module": "client/index.js",
+    "now": {
+        "scope": "x_snc_llamatracker",
+        "scopeId": "d30b2762a9c07110f8776daa48388516",
+        "entitiesDir": "server",
+        "serverModulesDir": "server",
+        "components": {
+            "entry": "client/index.js"
+        }
+    },
+    "scripts": {
+        "build": "rm -rf ./dist && now-sdk build",
+        "sync": "now-sdk transform"
+    },
+    "dependencies": {
+        "lodash.snakecase": "4.1.1",
+        "moment": "2.30.1"
+    },
+    "devDependencies": {
+        "@servicenow/sdk-cli": "file:/Users/richard.bull/git/fluent/packages/cli",
+        "@servicenow/sdk-cli-core": "file:/Users/richard.bull/git/fluent/packages/cli-core",
+        "@servicenow/sdk-core": "file:/Users/richard.bull/git/fluent/packages/core"
+    },
+    "nowUiDependencies": {
+        "@servicenow/ui-core": "*",
+        "@servicenow/ui-renderer-snabbdom": "*",
+        "@servicenow/now-chart-timeseries": "*",
+        "@servicenow/ui-effect-http": "*"
+    }
+}

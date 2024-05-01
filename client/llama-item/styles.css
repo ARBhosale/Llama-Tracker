@@ -1,0 +1,27 @@
+.llama-item {
+    width: 805px;
+    background-color: rgba(197, 208, 133, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.llama-item-title {
+    display: flex;
+}
+
+.llama-title {
+    margin-bottom: 30px;
+}
+
+.llama-vital-graph {
+    display: inline-flex;
+    width: 400px;
+    height: 200px;
+}
+
+.llama-picture img {
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
