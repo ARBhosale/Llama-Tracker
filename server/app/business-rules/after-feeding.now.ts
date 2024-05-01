@@ -3,8 +3,8 @@ import { afterFeeding } from "./scripts/after-feeding.mjs";
 
 BusinessRule({
   id: 3,
-  name: "Update Llama After Growth Logging",
-  table: "x_snc_llamatracker_feed_log" as any /*Generated*/,
+  name: "Update Llama After Feeding",
+  table: { name: "x_snc_llamatracker_feed_log" },
   when: "after",
   action: ["insert"],
   script: afterFeeding,

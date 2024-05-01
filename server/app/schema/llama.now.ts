@@ -7,7 +7,7 @@ import {
   DecimalColumn,
 } from "@servicenow/sdk-core/db";
 
-export const cleaningLog = Table({
+export const x_snc_llamatracker_cleaning_log = Table({
   actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_cleaning_log",
   label: "Cleaning Log",
@@ -23,7 +23,10 @@ export const cleaningLog = Table({
       max_length: 32,
       attributes: {
         encode_utf8: "true",
-        false: "0",
+        false: "true",
+        0: "4",
+        true: "true",
+        1: "true",
       },
     }),
   },
@@ -31,7 +34,8 @@ export const cleaningLog = Table({
   allow_web_service_access: false,
   index: [{ name: "index", element: "llama", unique: false }],
 });
-export const feedLog = Table({
+
+export const x_snc_llamatracker_feed_log = Table({
   actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_feed_log",
   label: "Feed Log",
@@ -45,7 +49,10 @@ export const feedLog = Table({
       max_length: 32,
       attributes: {
         encode_utf8: "true",
-        false: "0",
+        false: "true",
+        0: "4",
+        true: "true",
+        1: "true",
       },
     }),
   },
@@ -53,7 +60,8 @@ export const feedLog = Table({
   allow_web_service_access: false,
   index: [{ name: "index", element: "llama", unique: false }],
 });
-export const growthLog = Table({
+
+export const x_snc_llamatracker_growth_log = Table({
   actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_growth_log",
   label: "Growth Log",
@@ -76,7 +84,10 @@ export const growthLog = Table({
       max_length: 32,
       attributes: {
         encode_utf8: "true",
-        false: "0",
+        false: "true",
+        0: "4",
+        true: "true",
+        1: "true",
       },
     }),
   },
@@ -84,7 +95,8 @@ export const growthLog = Table({
   allow_web_service_access: false,
   index: [{ name: "index", element: "llama", unique: false }],
 });
-export const llama = Table({
+
+export const x_snc_llamatracker_llama = Table({
   actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_llama",
   label: "Llama",
@@ -95,7 +107,9 @@ export const llama = Table({
       dropdown: "none",
       attributes: {
         edge_encryption_enabled: "true",
-        true: "0",
+        true: "true",
+        0: "3",
+        1: "true",
       },
     }),
     fur_color: StringColumn({
@@ -103,7 +117,9 @@ export const llama = Table({
       dropdown: "none",
       attributes: {
         edge_encryption_enabled: "true",
-        true: "0",
+        true: "true",
+        0: "3",
+        1: "true",
       },
     }),
     fur_length: DecimalColumn({
@@ -117,7 +133,8 @@ export const llama = Table({
   extensible: true,
   allow_web_service_access: false,
 });
-export const shearingLog = Table({
+
+export const x_snc_llamatracker_shearing_log = Table({
   actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_shearing_log",
   label: "Llamatracker Shearing Log",
@@ -132,7 +149,10 @@ export const shearingLog = Table({
       max_length: 32,
       attributes: {
         encode_utf8: "true",
-        false: "0",
+        false: "true",
+        0: "4",
+        true: "true",
+        1: "true",
       },
     }),
   },

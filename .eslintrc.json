@@ -8,8 +8,6 @@
 		"@typescript-eslint/no-explicit-any": "warn",
 		"curly": "error",
 		"semi": "never",
-		"quotes": ["error", "single"],
-		"indent": ["error", 4],
 		"camelcase": "never",
 		"no-console": "error",
 		"prefer-const": "error",

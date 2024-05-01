@@ -4,7 +4,7 @@ import { afterShearing } from "./scripts/after-shearing.mjs";
 BusinessRule({
   id: 1,
   name: "Update Llama After Shearing",
-  table: "x_snc_llamatracker_shearing_log" as any /*Generated*/,
+  table: { name: "x_snc_llamatracker_shearing_log" },
   when: "after",
   action: ["insert"],
   script: afterShearing,

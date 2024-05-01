@@ -4,7 +4,7 @@ import { afterGrowth } from "./scripts/after-growth.mjs";
 BusinessRule({
   id: 2,
   name: "Update Llama After Growth Logging",
-  table: "x_snc_llamatracker_growth_log" as any /*Generated*/,
+  table: { name: "x_snc_llamatracker_growth_log" },
   when: "after",
   action: ["insert"],
   script: afterGrowth,
