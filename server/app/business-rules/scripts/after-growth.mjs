@@ -1,11 +1,3 @@
-/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
-import { GlideRecord } from '@servicenow/glide';
-
-/**
- * FunctionExport
- * @param {GlideRecord} current 
- * @param {GlideRecord} previous 
- */
 export function afterGrowth(
     current
 ) {

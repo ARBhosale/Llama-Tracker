@@ -1,11 +1,3 @@
-/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
-import { GlideRecord } from '@servicenow/glide';
-
-/**
- * FunctionExport
- * @param {GlideRecord} current 
- * @param {GlideRecord} previous 
- */
 export function afterFeeding(
     current
 ) {
@@ -16,8 +8,9 @@ export function afterFeeding(
 	const llama = current.llama.getRefRecord();
 	
 	llama.cleanliness -= calculateCleanlinessFromFoodWeight(current.food_weight);
-	if (llama.cleanliness < 0)
+	if (llama.cleanliness < 0) {
 		llama.cleanliness = 0;
+	}
 	
 	llama.update();;
 }

@@ -10,7 +10,7 @@ import {
 import './llama-farm/index.js'
 
 const view = ({ llamas }) => <div>
-    <h2>Testing new build of fluent 456 def</h2>
+    <h2>Llama Farm</h2>
     <llama-farm llamas={llamas} />
 </div>
 
