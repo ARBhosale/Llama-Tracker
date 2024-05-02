@@ -20,9 +20,9 @@
         "moment": "2.30.1"
     },
     "devDependencies": {
-        "@servicenow/sdk-cli": "file:/Users/richard.bull/git/fluent/packages/cli",
-        "@servicenow/sdk-cli-core": "file:/Users/richard.bull/git/fluent/packages/cli-core",
-        "@servicenow/sdk-core": "file:/Users/richard.bull/git/fluent/packages/core"
+        "@servicenow/sdk-cli": "24.0.19-k24-alpha.1",
+        "@servicenow/sdk-cli-core": "24.0.19-k24-alpha.1",
+        "@servicenow/sdk-core": "24.0.19-k24-alpha.1"
     },
     "nowUiDependencies": {
         "@servicenow/ui-core": "*",
