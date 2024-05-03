@@ -12,4 +12,4 @@ Notes:
     glide.rest.batch.max.outputSize = 25
     glide.rest.max_content_length = 25
     ```
-XML Imports: [sys_properties](https://servicenow.sharepoint.com/:u:/r/sites/platformfitness/Shared%20Documents/K24%20Demo/Llama%20Retail%201.0.1/sn-llama-retail-update-set.xml?csf=1&web=1&e=7baANZ)
+XML Imports: [sys_properties](https://servicenow.sharepoint.com/:u:/r/sites/platformfitness/Shared%20Documents/K24%20Demo/Import%20These%20Records/sys_properties.xml?csf=1&web=1&e=6nCxhB)
