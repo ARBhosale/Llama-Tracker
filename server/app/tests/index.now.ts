@@ -1,8 +1,6 @@
 import { Test } from "@servicenow/sdk-core/atf";
 import { Record } from "@servicenow/sdk-core/db";
-import {
-  x_snc_llamatracker_feed_log,
-} from "../schema/llama.now";
+import { x_snc_llamatracker_feed_log } from "../schema/llama.now";
 
 const leroy = Record({
   table: { name: "x_snc_llamatracker_llama" },
