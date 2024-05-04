@@ -4,7 +4,7 @@ export const llamaApp = Application({
   name: "Llama Tracker",
   properties: {
     use_metric_system: {
-      value: "true",
+      value: true,
       type: "boolean",
       description: "Testing a change",
       isPrivate: false,
