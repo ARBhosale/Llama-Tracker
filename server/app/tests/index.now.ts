@@ -1,15 +1,6 @@
 import { Test } from "@servicenow/sdk-core/atf";
-import { Record } from "@servicenow/sdk-core/db";
 import { x_snc_llamatracker_feed_log } from "../schema/llama.now";
-
-const leroy = Record({
-  table: { name: "x_snc_llamatracker_llama" },
-  id: 1,
-  data: {
-    sys_id: "0b86311743917110771b58ad4bb8f263",
-    name: "Leroy",
-  },
-});
+import { leroy } from "../../zz__demo_data__/llamas.now";
 
 Test("Feed Leroy Test", (atf) => {
   atf.openNewForm({
