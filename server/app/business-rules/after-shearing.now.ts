@@ -2,9 +2,9 @@ import { BusinessRule } from "@servicenow/sdk-core/app";
 import { afterShearing } from "./scripts/after-shearing.mjs";
 
 BusinessRule({
-  id: 1,
+  $id: 1,
   name: "Update Llama After Shearing",
-  table: { name: "x_snc_llamatracker_shearing_log" },
+  table: "x_snc_llamatracker_shearing_log",
   when: "after",
   action: ["insert"],
   script: afterShearing,

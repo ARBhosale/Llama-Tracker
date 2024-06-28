@@ -3,7 +3,7 @@ import { x_snc_llamatracker_growth_log } from "../app/schema/llama.now";
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 1,
+  $id: 1,
   data: {
     current_fur_length: 8.75,
     current_weight: 340,
@@ -15,7 +15,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 2,
+  $id: 2,
   data: {
     current_fur_length: 8.33,
     current_weight: 323,
@@ -27,7 +27,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 3,
+  $id: 3,
   data: {
     current_fur_length: 8.6,
     current_weight: 330,
@@ -39,7 +39,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 4,
+  $id: 4,
   data: {
     current_fur_length: 8.5,
     current_weight: 335,
@@ -51,7 +51,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 5,
+  $id: 5,
   data: {
     current_fur_length: 8.25,
     current_weight: 322,
@@ -63,7 +63,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 6,
+  $id: 6,
   data: {
     current_fur_length: 6.25,
     current_weight: 308,
@@ -75,7 +75,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 7,
+  $id: 7,
   data: {
     current_fur_length: 6,
     current_weight: 309,
@@ -87,7 +87,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 8,
+  $id: 8,
   data: {
     current_fur_length: 6.75,
     current_weight: 312,
@@ -99,7 +99,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 9,
+  $id: 9,
   data: {
     current_fur_length: 5,
     current_weight: 307,
@@ -111,7 +111,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 10,
+  $id: 10,
   data: {
     current_fur_length: 4.25,
     current_weight: 410,
@@ -123,7 +123,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 11,
+  $id: 11,
   data: {
     current_fur_length: 4.33,
     current_weight: 413,
@@ -136,7 +136,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 12,
+  $id: 12,
   data: {
     current_fur_length: 4.45,
     current_weight: 418,
@@ -148,7 +148,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 13,
+  $id: 13,
   data: {
     current_fur_length: 4.12,
     current_weight: 404,
@@ -160,7 +160,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 14,
+  $id: 14,
   data: {
     current_fur_length: 4.75,
     current_weight: 422,
@@ -172,7 +172,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 15,
+  $id: 15,
   data: {
     current_fur_length: 4.8,
     current_weight: 270,
@@ -184,7 +184,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 16,
+  $id: 16,
   data: {
     current_fur_length: 4.9,
     current_weight: 278,
@@ -196,7 +196,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 17,
+  $id: 17,
   data: {
     current_fur_length: 4.77,
     current_weight: 267,
@@ -208,7 +208,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 18,
+  $id: 18,
   data: {
     current_fur_length: 5.5,
     current_weight: 290,
@@ -220,7 +220,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 19,
+  $id: 19,
   data: {
     current_fur_length: 5.6,
     current_weight: 295,
@@ -232,7 +232,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 20,
+  $id: 20,
   data: {
     current_fur_length: 5.5,
     current_weight: 280,
@@ -244,7 +244,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 21,
+  $id: 21,
   data: {
     current_fur_length: 5.5,
     current_weight: 270,
@@ -256,7 +256,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 22,
+  $id: 22,
   data: {
     current_fur_length: 5.5,
     current_weight: 292,
@@ -268,7 +268,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_growth_log,
-  id: 23,
+  $id: 23,
   data: {
     current_fur_length: 5.5,
     current_weight: 275,

@@ -14,12 +14,12 @@ export const llamaApp = Application({
   },
   appAdministration: false,
   canEditInStudio: true,
-  jsMode: "ECMAScript 2021 (ES12)",
-  runtimeTracking: "Tracking",
+  jsMode: "es_latest",
+  runtimeTracking: "permissive",
   restrictTableChoices: false,
   license: {
-    subscriptionModel: "Not applicable",
-    subscriptionRequirement: "Monitor",
-    subscriptionCategory: "Not Applicable",
+    subscriptionModel: "none",
+    subscriptionRequirement: "log",
+    subscriptionCategory: "none",
   },
 });

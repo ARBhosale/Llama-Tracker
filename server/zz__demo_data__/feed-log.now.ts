@@ -3,7 +3,7 @@ import { x_snc_llamatracker_feed_log } from "../app/schema/llama.now";
 
 Record({
   table: x_snc_llamatracker_feed_log,
-  id: 1,
+  $id: 1,
   data: {
     sys_id: "a7348c89ff733110771bfffffffffff2",
     food_weight: 25,
@@ -14,7 +14,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_feed_log,
-  id: 2,
+  $id: 2,
   data: {
     sys_id: "81348c89ff733110771bffffffffff66",
     food_weight: 20,
@@ -25,7 +25,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_feed_log,
-  id: 3,
+  $id: 3,
   data: {
     sys_id: "c3548c89ff733110771bffffffffff71",
     food_weight: 20,
@@ -36,7 +36,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_feed_log,
-  id: 4,
+  $id: 4,
   data: {
     sys_id: "76e30889ff733110771bffffffffff1f",
     food_weight: 15,
@@ -47,7 +47,7 @@ Record({
 
 Record({
   table: x_snc_llamatracker_feed_log,
-  id: 5,
+  $id: 5,
   data: {
     sys_id: "6f7440c9ff733110771bffffffffff8e",
     food_weight: 17,

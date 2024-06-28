@@ -2,7 +2,7 @@ import { Record } from "@servicenow/sdk-core/db";
 
 export const leroy = Record({
   table: { name: "x_snc_llamatracker_llama" },
-  id: 1,
+  $id: 1,
   data: {
     sys_id: "0b86311743917110771b58ad4bb8f263",
     name: "Leroy",
@@ -15,7 +15,7 @@ export const leroy = Record({
 
 export const lenny = Record({
   table: { name: "x_snc_llamatracker_llama" },
-  id: 2,
+  $id: 2,
   data: {
     sys_id: "db29a04743113110771b58ad4bb8f232",
     name: "Lenny",
@@ -28,7 +28,7 @@ export const lenny = Record({
 
 export const lily = Record({
   table: { name: "x_snc_llamatracker_llama" },
-  id: 3,
+  $id: 3,
   data: {
     sys_id: "5afeed5f43517110771b58ad4bb8f2e3",
     name: "Lily",
@@ -41,7 +41,7 @@ export const lily = Record({
 
 export const lionel = Record({
   table: { name: "x_snc_llamatracker_llama" },
-  id: 4,
+  $id: 4,
   data: {
     sys_id: "31de6d5f43517110771b58ad4bb8f2e2",
     name: "Lionel",
@@ -54,7 +54,7 @@ export const lionel = Record({
 
 export const lara = Record({
   table: { name: "x_snc_llamatracker_llama" },
-  id: 5,
+  $id: 5,
   data: {
     sys_id: "5cce6d5f43517110771b58ad4bb8f2dc",
     name: "Lara",

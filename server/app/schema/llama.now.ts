@@ -1,26 +1,14 @@
-import {
-  Table,
-  StringColumn,
-  BooleanColumn,
-  ReferenceColumn,
-  IntegerColumn,
-  DecimalColumn,
-} from "@servicenow/sdk-core/db";
+import { Table, StringColumn } from "@servicenow/sdk-core/db";
 
 export const x_snc_llamatracker_cleaning_log = Table({
-  actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_cleaning_log",
   label: "Cleaning Log",
-  caller_access: "None",
+  caller_access: "none",
   schema: {
-    blow_dried: BooleanColumn({ label: "Blow Dried" }),
-    brushed: BooleanColumn({ label: "Brushed" }),
-    washed: BooleanColumn({ label: "Washed" }),
-    llama: ReferenceColumn({
-      label: "Llama",
-      referenceTable: { name: "x_snc_llamatracker_llama" },
-      max_length: 32,
-    }),
+    brushed: StringColumn({ label: "Brushed" }),
+    washed: StringColumn({ label: "Washed" }),
+    llama: StringColumn({ label: "Llama" }),
+    blow_dried: StringColumn({ label: "Blow Dried" }),
   },
   extensible: true,
   allow_web_service_access: false,
@@ -28,17 +16,12 @@ export const x_snc_llamatracker_cleaning_log = Table({
 });
 
 export const x_snc_llamatracker_feed_log = Table({
-  actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_feed_log",
   label: "Feed Log",
-  caller_access: "None",
+  caller_access: "none",
   schema: {
-    food_weight: IntegerColumn({ label: "Food Weight" }),
-    llama: ReferenceColumn({
-      label: "Llama",
-      referenceTable: { name: "x_snc_llamatracker_llama" },
-      max_length: 32,
-    }),
+    food_weight: StringColumn({ label: "Food Weight" }),
+    llama: StringColumn({ label: "Llama" }),
   },
   extensible: true,
   allow_web_service_access: false,
@@ -46,24 +29,13 @@ export const x_snc_llamatracker_feed_log = Table({
 });
 
 export const x_snc_llamatracker_growth_log = Table({
-  actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_growth_log",
   label: "Growth Log",
-  caller_access: "None",
+  caller_access: "none",
   schema: {
-    current_fur_length: DecimalColumn({
-      label: "Current Fur Length",
-      max_length: 15,
-    }),
-    current_weight: DecimalColumn({
-      label: "Current Weight",
-      max_length: 15,
-    }),
-    llama: ReferenceColumn({
-      label: "Llama",
-      referenceTable: { name: "x_snc_llamatracker_llama" },
-      max_length: 32,
-    }),
+    current_fur_length: StringColumn({ label: "Current Fur Length" }),
+    current_weight: StringColumn({ label: "Current Weight" }),
+    llama: StringColumn({ label: "Llama" }),
   },
   extensible: true,
   allow_web_service_access: false,
@@ -71,41 +43,28 @@ export const x_snc_llamatracker_growth_log = Table({
 });
 
 export const x_snc_llamatracker_llama = Table({
-  actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_llama",
   label: "Llama",
-  caller_access: "None",
+  caller_access: "none",
   schema: {
-    name: StringColumn({
-      label: "Llama",
-    }),
-    fur_color: StringColumn({
-      label: "Fur Color",
-    }),
-    fur_length: DecimalColumn({
-      label: "Fur Length",
-      max_length: 15,
-    }),
-    cleanliness: IntegerColumn({ label: "Cleanliness" }),
-    weight: IntegerColumn({ label: "Weight" }),
+    fur_color: StringColumn({ label: "Fur Color" }),
+    fur_length: StringColumn({ label: "Fur Length" }),
+    name: StringColumn({ label: "Llama" }),
+    cleanliness: StringColumn({ label: "Cleanliness" }),
+    weight: StringColumn({ label: "Weight" }),
   },
   extensible: true,
   allow_web_service_access: false,
 });
 
 export const x_snc_llamatracker_shearing_log = Table({
-  actions: ["read", "update", "create"],
   name: "x_snc_llamatracker_shearing_log",
   label: "Llamatracker Shearing Log",
-  caller_access: "None",
+  caller_access: "none",
   schema: {
-    shear_length: IntegerColumn({ label: "Shear Length" }),
-    shear_weight: IntegerColumn({ label: "Shear Weight" }),
-    llama: ReferenceColumn({
-      label: "Llama",
-      referenceTable: { name: "x_snc_llamatracker_llama" },
-      max_length: 32,
-    }),
+    shear_length: StringColumn({ label: "Shear Length" }),
+    shear_weight: StringColumn({ label: "Shear Weight" }),
+    llama: StringColumn({ label: "Llama" }),
   },
   extensible: true,
   allow_web_service_access: false,
