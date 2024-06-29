@@ -24,7 +24,7 @@
         "@servicenow/sdk-cli-core": "24.0.19-k24-alpha.1",
         "@servicenow/sdk-core": "24.0.19-k24-alpha.1"
     },
-    "nowUiDependencies": {
+    "optionalDependencies": {
         "@servicenow/ui-core": "*",
         "@servicenow/ui-renderer-snabbdom": "*",
         "@servicenow/now-chart-timeseries": "*",
