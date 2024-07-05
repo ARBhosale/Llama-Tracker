@@ -1,10 +1,11 @@
 import { BusinessRule } from "@servicenow/sdk-core/app";
 import { afterGrowth } from "./scripts/after-growth.mjs";
+import { TableName } from '@servicenow/sdk-core/db'
 
 BusinessRule({
   $id: 2,
   name: "Update Llama After Growth Logging",
-  table: "x_snc_llamatracker_growth_log",
+  table: "x_snc_llamatracker_growth_log" as TableName,
   when: "after",
   action: ["insert"],
   script: afterGrowth,

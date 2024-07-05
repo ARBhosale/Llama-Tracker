@@ -1,6 +1,5 @@
 import { RestApi } from "@servicenow/sdk-core/rest";
-import { script } from "@servicenow/sdk-core/util";
-
+import { getLlamasHandler } from "./get-llamas";
 RestApi({
   $id: "11111",
   name: "Get Farm",
@@ -13,7 +12,7 @@ RestApi({
       path: "/farm",
       $id: "12",
       enforce_acl: [],
-      script: script`const { getLlamasHandler } = require('./server/app/rest/get-llamas.js')\ngetLlamasHandler(request, response)`,
+      script: getLlamasHandler,
       consumes: "application/json",
       produces: "application/json,application/xml,text/xml",
     },

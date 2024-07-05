@@ -6,7 +6,8 @@
         "scope": "x_snc_llamatracker",
         "scopeId": "d30b2762a9c07110f8776daa48388516",
         "entitiesDir": "server",
-        "serverModulesDir": "server",
+        "serverModulesDir": "",
+        "transpiledSourceDir": "server",
         "components": {
             "entry": "client/index.js"
         }
