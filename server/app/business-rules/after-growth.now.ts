@@ -1,6 +1,5 @@
-import { BusinessRule } from "@servicenow/sdk-core/app";
-import { afterGrowth } from "./scripts/after-growth.mjs";
-import { TableName } from '@servicenow/sdk-core/db'
+import { BusinessRule, TableName } from "@servicenow/sdk/core";
+import { afterGrowth } from "./scripts/after-growth.js";
 
 BusinessRule({
   $id: 2,

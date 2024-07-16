@@ -1,6 +1,5 @@
-import { BusinessRule } from "@servicenow/sdk-core/app";
-import { afterShearing } from "./scripts/after-shearing.mjs";
-import { TableName } from '@servicenow/sdk-core/db'
+import { BusinessRule, TableName } from "@servicenow/sdk/core";
+import { afterShearing } from "./scripts/after-shearing.js";
 
 BusinessRule({
   $id: 1,

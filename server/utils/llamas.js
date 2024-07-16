@@ -2,7 +2,7 @@ import {GlideRecord} from '@servicenow/glide';
 import snakeCase from 'lodash.snakecase';
 import {
     getElapsedDays
-} from './misc.mjs';
+} from './misc.js';
 
 export const getLastFed = llama => {
     const grfl = new GlideRecord('x_snc_llamatracker_feed_log');

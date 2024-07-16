@@ -21,9 +21,10 @@
         "moment": "2.30.1"
     },
     "devDependencies": {
-        "@servicenow/sdk-cli": "24.0.19-k24-alpha.1",
-        "@servicenow/sdk-cli-core": "24.0.19-k24-alpha.1",
-        "@servicenow/sdk-core": "24.0.19-k24-alpha.1"
+        "@servicenow/sdk": "1.1.0-rc55",
+        "@servicenow/glide": "25.0.3-alpha5",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "1.1.0-rc55"
     },
     "optionalDependencies": {
         "@servicenow/ui-core": "*",

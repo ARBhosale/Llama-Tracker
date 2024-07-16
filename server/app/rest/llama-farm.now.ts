@@ -1,10 +1,10 @@
-import { RestApi } from "@servicenow/sdk-core/rest";
+import { RestApi } from "@servicenow/sdk/core";
 import { getLlamasHandler } from "./get-llamas";
 RestApi({
   $id: "11111",
   name: "Get Farm",
   consumes: "application/json",
-  service_id: "custom_id",
+  service_id: "",
   routes: [
     {
       name: "Get Llamas",

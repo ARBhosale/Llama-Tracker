@@ -1,4 +1,4 @@
-import { Table, StringColumn } from "@servicenow/sdk-core/db";
+import { Table, StringColumn } from "@servicenow/sdk/core";
 
 export const x_snc_llamatracker_cleaning_log = Table({
   name: "x_snc_llamatracker_cleaning_log",
