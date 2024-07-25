@@ -1,15 +1,2 @@
-1. Download and install update set (only has a single sys_app record)
-    - [Llama Farm 1.0.5](https://servicenow.sharepoint.com/:f:/r/sites/platformfitness/Shared%20Documents/K24%20Demo/Llama%20Farm%201.0.5?csf=1&web=1&e=zi7Dvm)
-2. Setup git on the IDE
-3. Clone this repo
-4. Build the app
-5. Install demo data from the link above 
-
-Notes:
-
-1. The files on this repo are large. Set these sys_properties,
-    ```
-    glide.rest.batch.max.outputSize = 25
-    glide.rest.max_content_length = 25
-    ```
-XML Imports: [sys_properties](https://servicenow.sharepoint.com/:u:/r/sites/platformfitness/Shared%20Documents/K24%20Demo/Import%20These%20Records/sys_properties.xml?csf=1&web=1&e=6nCxhB)
+1. If you see errors in the logs about not being able to install third party applications, make sure to add the scope prefix `snc` to `sn_appauthor.all_company_keys` in your sys_properties. Without this, the application will not install and you will see no records applied.
+    - ex: `sn_appauthor.all_company_keys = abc,snc`
