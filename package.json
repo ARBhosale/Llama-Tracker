@@ -2,6 +2,7 @@
     "name": "x_snc_llamatracker",
     "version": "1.0.0",
     "module": "client/index.js",
+    "description":"b3",
     "now": {
         "components": {
             "entry": "client/index.js"
